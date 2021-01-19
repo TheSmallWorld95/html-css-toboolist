@@ -7,21 +7,17 @@
 .Logocontainer {
   height: 100px;
   background: #fff;
+  font-size: 35px;
+  vertical-align: middle;
 }
 
 #Logo {
   height: 50px;
-  margin: 20px 0 20px 30px;
+  margin: 25px 0 25px 30px;
+  vertical-align: middle;
 
 }
 
-.Titolo {
-  display: inline-block;
-  font-size: 35px;
-  height: 80%;
-  
-
-}
 
 body {
   background-color: #ECECEC;
@@ -81,14 +77,22 @@ ul {
 
 .check::before {
   content: "\2713";
-  color: #BDECB6;
+  color: #39ff14;
   font-size: 15px;
+  border: 0.5px solid #39ff14;
+  border-radius: 50%;
+  padding: 1px 3px 0;
+  vertical-align: middle;
 }
 
 .cross::before {
   content: "\2573";
   color: #ff0000;
-  font-size: 12px;
+  font-size: 10px;
+  border: 0.5px solid #ff0000;
+  border-radius: 50%;
+  padding: 3px 4px 3px;
+  vertical-align: middle;
 }
 
 .Plug-in-lightblue {
