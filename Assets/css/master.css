@@ -4,6 +4,8 @@
   font-family: sans-serif;
 }
 
+/* HEADER */
+
 .Logocontainer {
   height: 100px;
   background: #fff;
@@ -18,6 +20,7 @@
 
 }
 
+/* HEADER */
 
 body {
   background-color: #ECECEC;
@@ -30,6 +33,8 @@ main {
  margin: 0 10% 0 15%;
  background: #fff;
 }
+
+/* BUTTON */
 
 .buttoncontainer {
   height: 55px;
@@ -56,16 +61,25 @@ main {
   opacity: 0.2;
 }
 
+/* BUTTON */
+
+/* UTILITY */
+
 .hr {
   height: 5px;
   background-color: #ECECEC;
 }
+
 
 .List-container {
   margin: 40px 0 0 40px;
   font-size: 25px;
 
 }
+
+/* UTILITY */
+
+/* LIST ATTRIBUTE */
 
 li {
   list-style-type: none;
@@ -80,6 +94,8 @@ ul {
   content: "\25BE";
 
 }
+
+/* CHECK & CROSS */
 
 li.check,li.cross {
   padding-left: 30px;
@@ -104,6 +120,9 @@ li.check,li.cross {
   padding: 3px 4px 3px;
   vertical-align: middle;
 }
+
+/* CHECK & CROSS */
+
 
 .Plug-in-lightblue {
   display: inline-block;
@@ -164,3 +183,5 @@ li.check,li.cross {
   padding: 8px;
   margin-left: 5px;
 }
+
+/* LIST ATTRIBUTE */
